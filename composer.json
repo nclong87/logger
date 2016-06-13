@@ -1,0 +1,22 @@
+{
+    "name": "nclong87/logger",
+    "description": "Mono log wrapper",
+    "keywords": ["log", "logging", "psr-3"],
+    "homepage": "https://github.com/nclong87/logger",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Long Nguyen",
+            "email": "nclong87@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "* 1.19.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "LongNC" : "src/"
+        }
+    }
+}
